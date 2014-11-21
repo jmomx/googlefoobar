@@ -12,16 +12,16 @@ Return value must equal the maximum number of appointments that can be scheduled
 
 ## Files
 
-# solution.py
+### solution.py
 
 The solution to the problem, which I submitted to Google and passed the challenge with
 
-# solution_plus.py
+### solution_plus.py
 
 A file containing the soluition, my previous solution that was incorrect, and some test hooks
 
 This should be a few files but was left as one for simplicity
 
-# discrepancy.txt
+### discrepancy.txt
 
 This is an example input where the two solutions differ
