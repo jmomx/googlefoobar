@@ -65,7 +65,7 @@ class Graph:
                 #we found the node we want to remove
                 self.nodes.remove(oldnode)
             else:
-                #we found a nother node, possible connected to oldnode
+                #we found another node, possible connected to oldnode
                 Node.split(node, oldnode)
 
     #def __str__(self):
@@ -86,7 +86,6 @@ def old_answer(meetings):
         g.remove(gsorted[-1])
         #and try again
         gsorted = sorted(g.nodes, key=Node.num_edges)
-
     return len(g.nodes)
 
 
@@ -191,13 +190,19 @@ def generatemeetings():
             meetings.append([startval, startval + 1])
     return meetings
 
+def findbug():
+    meetings = [[33, 98], [44, 47], [15, 65], [18, 19], [1, 52], [23, 40], [23, 49]]
+    print(old_answer(meetings))
+
 #############################
 
 
 def main():
     #testnode()
     #testgraph()
-    #testanswer()
-    compareanswer()
+    testanswer()
+    #compareanswer()
+    #findbug()
+
 
 if __name__ == "__main__": main()
