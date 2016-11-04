@@ -18,7 +18,7 @@ The solution to the problem, which I submitted to Google and passed the challeng
 
 ### solution_plus.py
 
-A file containing the soluition, my previous solution that was incorrect, and some test hooks
+A file containing the solution, my previous solution that was incorrect, and some test hooks
 
 This should be a few files but was left as one for simplicity
 
